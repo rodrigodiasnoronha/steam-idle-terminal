@@ -1,0 +1,29 @@
+{
+  "name": "steam-idle",
+  "version": "1.0.0",
+  "description": "Automatically farms card drops for Steam games",
+  "main": "src/app.js",
+  "dependencies": {
+    "@inquirer/password": "^1.1.7",
+    "@inquirer/prompts": "^3.0.2",
+    "@types/steam-user": "^4.26.4",
+    "inquirer": "^9.2.10",
+    "steam": "^1.4.1",
+    "steam-user": "^4.29.1"
+  },
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "keywords": [
+    "steam",
+    "idle"
+  ],
+  "author": "Tiago Marques",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.8",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.6.1",
+    "typescript": "^5.1.6"
+  }
+}

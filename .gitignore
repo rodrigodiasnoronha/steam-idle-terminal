@@ -1,0 +1,5 @@
+/node_modules
+src/Game.js
+src/GamesController.js
+src/Log.js
+src/teste.ts
